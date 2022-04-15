@@ -1,0 +1,32 @@
+{
+  "name": "makeandship/dmd-client-php",
+  "description": "PHP client for Make and Ship dm+d elasticsearch",
+  "keywords": [
+    "elasticsearch",
+    "dm+d"
+  ],
+  "authors": [
+    {
+      "name": "Mark Thomsit",
+      "email": "mark@makeandship.com",
+      "homepage": "https://www.makeandship.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "makeandship\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "v1.0.5"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "composer/installers": "*",
+    "ruflin/elastica": "^7"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
